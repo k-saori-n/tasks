@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    border-bottom: 3px white solid;
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.nameForm {
+    padding-top: 20px;
+}
+
+.button1 {
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.firstSentence {
+    padding-top: 50px; 
+}
+
+.button2 {
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.left {
+    height: 120px;
+    width: 200px;
+    background-color: #add8e6;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.username {
+    height: 60px;
+    width: 800px;
+    background-color: #87ceeb;
+    text-align: right;
+}
+
+.username p {
+    line-height: 60px;
+    margin: 0px;
+}
+
+.loginTime {
+    height: 60px;
+    width: 800px;
+    background-color: #00ffff;
+    text-align: right;
+}
+
+.loginTime p {
+    line-height: 60px;
+    margin: 0px;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px white solid;
+}
+
+th {
+    background-color: #87ceeb;
+}
+
+td {
+    background-color: #e0ffff;
+}
+
+footer {
+    height: 50px;
+    width: 1000px;
+    background-color: #00cde1;
+}

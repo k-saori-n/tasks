@@ -1,5 +1,4 @@
 <?php
-require_once('pdo.php');
 require_once('getData.php');
 
 $getData = new getData();
@@ -44,7 +43,14 @@ $postData = $getData -> getPostData();
                 <tr>
                     <td><?php echo $contents['id']; ?></td>
                     <td><?php echo $contents['title']; ?></td>
-                    <td><?php echo $contents['category_no']; ?></td>
+                    <td><?php if ($contents['category_no'] == 1) {; ?>
+                        <?php echo '食事'; ?>
+                        <?php } else if ($contents['category_no'] == 2) { ; ?>
+                        <?php echo '旅行'; ?>
+                        <?php } else { ; ?>
+                        <?php echo 'その他'; ?>
+                        <?php }; ?>
+                    </td>
                     <td><?php echo $contents['comment']; ?></td>
                     <td><?php echo $contents['created']; ?></td>
                 <?php }; ?>

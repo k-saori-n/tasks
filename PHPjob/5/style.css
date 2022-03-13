@@ -1,0 +1,128 @@
+h1 {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.textBox {
+    border-radius: 5px;
+    border: 1px #c0c0c0 solid;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 310px;
+    height: 25px;
+}
+
+.registerButton, .loginButton {
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    border: 5px #1e90ff solid;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+}
+
+.loginButton2 {
+    color: white;
+    background-color: #1e90ff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 5px #1e90ff solid;
+    text-align: center;
+    height: 35px;
+    width: 300px;
+}
+
+.loginHeader {
+    display: flex;
+    width: 310px;
+}
+
+.newUserButton {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 30px;
+    background-color: #5f9ea0;
+    border-radius: 5px;
+    border: 5px #5f9ea0 solid;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-top: 18.76px;
+}
+
+.buttonBox {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.registerButton2 {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 25px;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    border: 5px #1e90ff solid;
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    margin-right: 15px;
+}
+
+.logoutButton {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 25px;
+    background-color: #696969;
+    border-radius: 5px;
+    border: 5px #696969 solid;
+    text-align: center;
+    height: 25px;
+    width: 80px;
+    margin-right: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: center;
+    background-color: #dcdcdc;
+    border: #c0c0c0 1px solid;
+    height: 40px;
+}
+
+table td {
+    text-align: center;
+    border: #c0c0c0 1px solid;
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.stockBox {
+    border-radius: 5px;
+    border: 1px #c0c0c0 solid;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 310px;
+    height: 37px;
+}
+
+.deleteButton {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 25px;
+    background-color: #dc143c;
+    border-radius: 5px;
+    border: 5px #dc143c solid;
+    text-align: center;
+    height: 25px;
+    width: 40px;
+}

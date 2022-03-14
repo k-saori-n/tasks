@@ -49,7 +49,7 @@ if (!empty($_POST)) {
             <input type="date" name="date" placeholder="日付" class="textBox"><br>
             在庫数<br>
             <select name="stock" class="stockBox">
-                <option hidden>選択してください</option>
+                <option disabled selected>選択してください</option>
                 <?php for ($i = 0; $i <= 100; $i++) { ?>
                     <option value="<?php echo $i; ?>">
                         <?php echo $i; ?>

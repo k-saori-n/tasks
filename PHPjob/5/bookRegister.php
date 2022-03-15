@@ -13,6 +13,7 @@ if (!empty($_POST)) {
     if (empty($_POST['stock'])) {
         echo '在庫数が選択されていません';
     }
+
     if (!empty($_POST['title']) && !empty($_POST['date']) && !empty($_POST['stock'])) {
         $title = htmlspecialchars($_POST['title'], ENT_QUOTES);
         $date = $_POST['date'];
@@ -48,14 +49,7 @@ if (!empty($_POST)) {
             <input type="text" name="title" placeholder="タイトル" class="textBox"><br>
             <input type="date" name="date" placeholder="日付" class="textBox"><br>
             在庫数<br>
-            <select name="stock" class="stockBox">
-                <option disabled selected>選択してください</option>
-                <?php for ($i = 0; $i <= 100; $i++) { ?>
-                    <option value="<?php echo $i; ?>">
-                        <?php echo $i; ?>
-                    </option>
-                <?php } ?>
-            </select><br>
+            <input type="number" name="stock" step="1" min="0" placeholder="半角数字で入力してください" class="textBox"><br>
             <input type="submit" value="登録" class="registerButton">
         </form>
     </body>
